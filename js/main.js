@@ -1,4 +1,4 @@
-import anime from js/anime.js
+
 
 function increaseFn() { 
     var btn = document.getElementById("myButton"); 
