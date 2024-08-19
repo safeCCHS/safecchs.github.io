@@ -1,18 +1,32 @@
 button#myButton {
-    width: 50%;
-    height: 100px;
-    align-self: center;
-    align-content: center;
+    width: 30%;
+    height: 300px;
+    /*align-self: center;
+    align-content: center; */
+
+    position: fixed; 
+    bottom: 10px; 
+    left: 30%; 
+    transform: translateX(-90%); 
+
 }
 
 .greeting{ 
     color: greenyellow;
-    font-size: 160px ;
+    font-size: 90px ;
 
-    text-align: center;
+   text-indent: 550px;
 
-    
-  
+}
+
+button#startButton{
+    width: 30% ; 
+    height: 250px; 
+
+    position: fixed; 
+    bottom: 75px; 
+    left: 65%; 
+    transform: translateX(-20%); 
 
 
 }

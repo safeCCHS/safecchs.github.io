@@ -1,0 +1,11 @@
+button#startButton{
+    width: 30% ; 
+    height: 20050px; 
+
+    position: fixed; 
+    bottom: 75px; 
+    left: 65%; 
+    transform: translateX(-20%); 
+
+
+}
