@@ -27,6 +27,7 @@ button#startButton{
     bottom: 75px; 
     left: 65%; 
     transform: translateX(-20%); 
-
+    border-radius: 15px;
+    background-color: bisque;
 
 }
