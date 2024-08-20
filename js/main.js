@@ -12,3 +12,8 @@ function increaseFn() {
     //btn.style.width = (currwidth + 20) + "px"; 
     //btn.style.height = (currheight + 10) + "px"; 
 } 
+
+function displayText(){
+    var h = 0; 
+    /* so if there is */
+}

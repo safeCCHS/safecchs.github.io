@@ -8,6 +8,8 @@ button#myButton {
     bottom: 10px; 
     left: 30%; 
     transform: translateX(-90%); 
+    font-size: 40px;
+   background-color: bisque;
 
 }
 
@@ -29,5 +31,6 @@ button#startButton{
     transform: translateX(-20%); 
     border-radius: 15px;
     background-color: bisque;
+    
 
 }
