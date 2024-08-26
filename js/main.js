@@ -14,6 +14,27 @@ function increaseFn() {
 } 
 
 function displayText(){
-    var h = 0; 
-    /* so if there is */
+
+    if(empty){
+        localStorage.setItem("left off", "WelcomePage")
+    }
+    
+
+    let savePoint= localStorage.getItem("left off");
+    
+    let display = "Start!" 
+    
+    if (savePoint != "WelcomePage"){
+        // then the button says continue
+        display = "Continue!"
+            
+        // save that page in memory (local storage)       ***** THIS STEP SHOULD BE DONE OUTSIDE, in each page's js file***** 
+     
+        // set button link to the page saved in memory 
+    } 
+    document.getElementById("startButton").innerText = display
+
+
+
 }
+

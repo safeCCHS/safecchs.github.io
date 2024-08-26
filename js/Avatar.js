@@ -1,4 +1,7 @@
 
+localStorage.setItem("left off", "Avatar")
+
+
 function increaseFuuuuuun() { 
     var btn = document.getElementById("myButton"); 
     var currwidth = btn.clientWidth; 
