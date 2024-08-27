@@ -15,16 +15,15 @@ function increaseFn() {
 
 function displayText(){
 
-    if(empty){
+    let savePoint = localStorage.getItem("left off");
+    let display = "Start!" 
+    
+    if(savePoint == null){
         localStorage.setItem("left off", "WelcomePage")
     }
     
-
-    let savePoint= localStorage.getItem("left off");
     
-    let display = "Start!" 
-    
-    if (savePoint != "WelcomePage"){
+    if (savePoint != null & savePoint != "WelcomePage"){
         // then the button says continue
         display = "Continue!"
             
@@ -32,6 +31,7 @@ function displayText(){
      
         // set button link to the page saved in memory 
     } 
+
     document.getElementById("startButton").innerText = display
 
 
