@@ -27,14 +27,24 @@ function displayText(){
         // then the button says continue
         display = "Continue!"
             
-        // save that page in memory (local storage)       ***** THIS STEP SHOULD BE DONE OUTSIDE, in each page's js file***** 
-     
-        // set button link to the page saved in memory 
+        // save that page in memory (local storage)       ***** THIS STEP SHOULD BE DONE OUTSIDE, in each page's js file*****  
+
     } 
 
-    document.getElementById("startButton").innerText = display
+    document.getElementById("link").innerText = display
 
+}
 
+function goThere(){
+    // change the a to the first page for the safebae content (don't forget to put a / in front)
+    let a = "/avatarPage.html" 
+    let savePoint = localStorage.getItem("left off");
 
+    //here set the pages links html's  (with / in front)
+    if( savePoint == "Avatar"){
+        a = "/avatarPage.html"
+    }   
+    
+    window.location.pathname = a;
 }
 
